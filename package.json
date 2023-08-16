@@ -3,8 +3,8 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts":{
-    "build":"npx tailwindcss -i ./src/input.css -o ./dist/css/new-design.css",
-    "watch":"npx tailwindcss -i ./src/input.css -o ./dist/css/new-design.css --watch",
-    "minify":"npx tailwindcss -i ./src/input.css -o ./dist/css/new-design.min.css --minify"
+    "build":"npx tailwindcss -i ./src/input.css -o ./dist/css/discover-the-beauty.css",
+    "watch":"npx tailwindcss -i ./src/input.css -o ./dist/css/discover-the-beauty.css --watch",
+    "minify":"npx tailwindcss -i ./src/input.css -o ./dist/css/discover-the-beauty.min.css --minify"
   }
 }

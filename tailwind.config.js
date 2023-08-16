@@ -13,7 +13,8 @@ module.exports = {
       },
       fontSize: {
         26: 26,
-        32: 32
+        32: 32,
+        64:64,
       },
       gap: {
         118: 118
@@ -60,6 +61,9 @@ module.exports = {
     fontFamily: {
       'avenir': ['avenir', 'arial'],
       'avenir-book': ['avenir-book', 'arial']
+    },
+    lineHeight:{
+      20:'80px'
     }
   },
   plugins: [],
