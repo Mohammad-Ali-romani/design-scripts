@@ -9,12 +9,20 @@ module.exports = {
           500: '#252525',
           700: '#1c1c1c'
         },
-        whitePro:'rgba(255, 255, 255, 0.8)'
+        whitePro: 'rgba(255, 255, 255, 0.8)',
+        prim: {
+          200: '#ECDAC4',
+          500: '#A36A4F', 
+          600: 'rgb(136 81 54)', 
+          800: '#363032',
+          900: '#363031'
+        },
+        transparentWhite:'rgba(255, 255, 255, 0.35)'
       },
       fontSize: {
         26: 26,
         32: 32,
-        64:64,
+        64: 64,
       },
       gap: {
         118: 118
@@ -26,33 +34,33 @@ module.exports = {
         15: '12%',
         35: '35%',
       },
-      animation:{
-        poper:'popation 3s infinite linear alternate',
-        show:'show .5s linear',
-        down:'down .5s linear'
+      animation: {
+        poper: 'popation 3s infinite linear alternate',
+        show: 'show .5s linear',
+        down: 'down .5s linear'
       },
-      keyframes:{
-        popation:{
-          '0%':{
+      keyframes: {
+        popation: {
+          '0%': {
             transform: 'translateY(-10px)'
           },
-          '100%':{
+          '100%': {
             transform: 'translateY(10px)'
           },
         },
-        show:{
-          '0%':{
+        show: {
+          '0%': {
             opacity: '0'
           },
-          '100%':{
+          '100%': {
             opacity: '1'
           },
         },
-        down:{
-          from:{
+        down: {
+          from: {
             transform: 'translateY(-20px)',
           },
-          to:{
+          to: {
             transform: 'translateY(0)'
           }
         }
@@ -62,8 +70,8 @@ module.exports = {
       'avenir': ['avenir', 'arial'],
       'avenir-book': ['avenir-book', 'arial']
     },
-    lineHeight:{
-      20:'80px'
+    lineHeight: {
+      20: '80px'
     }
   },
   plugins: [],
